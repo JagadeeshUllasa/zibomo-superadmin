@@ -255,3 +255,27 @@ document.getElementById('searchInput').addEventListener('keypress', function(eve
     }
 });
 
+/*  */
+
+function addBox() {
+    const boxContainer = document.getElementById('boxContainer');
+    // Get the template row
+    const templateRow = boxContainer.querySelector('.box-row');
+    if (templateRow) {
+        const newRow = templateRow.cloneNode(true);
+        // Reset the values of inputs in the new row
+        newRow.querySelectorAll('input').forEach(input => input.value = '');
+        newRow.querySelectorAll('select').forEach(select => select.selectedIndex = 0);
+        boxContainer.appendChild(newRow);
+    }
+}
+
+function removeSpecificBox(icon) {
+    const boxContainer = document.getElementById('boxContainer');
+    const rows = boxContainer.querySelectorAll('.box-row');
+    if (rows.length > 1) { // Ensure at least one row remains
+        const row = icon.closest('.box-row');
+        boxContainer.removeChild(row);
+    }
+}
+
