@@ -464,5 +464,6 @@ th {
    .number-card{
       padding-top:12px;
       padding-bottom:16px;
+      margin: 0px;
   }
 }
