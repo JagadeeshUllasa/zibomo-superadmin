@@ -87,9 +87,9 @@
         <div class="l-navbar" id="nav-bar">
             <nav class="nav">
                 <div>
-                    <a href="index.html" class="nav_logo"> 
+                    <a href="index.html" class="nav_logo">
                         <!-- <i class='bx bx-layer nav_logo-icon'></i> -->
-                         <img src="image/z-logo.png" alt="" class="nav_logo-icon">
+                        <img src="image/z-logo.png" alt="" class="nav_logo-icon">
                         <span class="nav_logo-name">
                             <img src="image/zibomo-logo.png" class="w-25" alt="">
                         </span>
@@ -115,7 +115,7 @@
                                                 <a href="create-franchise.html" class="nav_link">
                                                     <span><i class='bx bx-radio-circle'></i></span>
                                                     <span>Create Franchise</span>
-    
+
                                                 </a>
                                             </li>
                                             <li style="list-style: none;">
@@ -147,7 +147,7 @@
                                                 <a href="create-terminal.html" class="nav_link">
                                                     <span><i class='bx bx-radio-circle'></i></span>
                                                     <span>Create Terminal</span>
-    
+
                                                 </a>
                                             </li>
                                             <li style="list-style: none;">
@@ -161,10 +161,10 @@
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="d-inline-flex gap-1">
-                            <a class=" nav_link active" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button"
-                                aria-expanded="false" aria-controls="multiCollapseExample3">
+                            <a class=" nav_link active" data-bs-toggle="collapse" href="#multiCollapseExample3"
+                                role="button" aria-expanded="false" aria-controls="multiCollapseExample3">
                                 <span><i class="bx bx-message-square-detail nav_icon"></i></span>
                                 <span class="nav_name">Venders
                                     <span class="nav-dropdown-icon"><i class='bx bx-chevron-down'></i></span>
@@ -180,7 +180,7 @@
                                                 <a href="create-vender.html" class="nav_link">
                                                     <span><i class='bx bx-radio-circle'></i></span>
                                                     <span>Create Vender</span>
-    
+
                                                 </a>
                                             </li>
                                             <li style="list-style: none;">
@@ -226,23 +226,14 @@
                             </div>
 
                         </div>
-                        <div class="bg-white border border-white rounded py-5">
+                        <div class="">
                             <div class="row g-2 d-flex justify-content-center pb-3   ">
 
-                                <div class="col-auto ">
-                                    <input type="text" id="searchInput" class="form-control px-4 py-2"
-                                        aria-describedby="passwordHelpInline" placeholder="Search here..">
-                                </div>
-                                <div class="col-auto ">
-                                    <button type="button" class="btn btn-success"
-                                        onclick="searchTable()">Submit</button>
-                                </div>
+
                             </div>
                             <div class="table-section py-3 overflow-auto">
-                                <table class="table table-striped table table-bordered  caption-top">
-                                    <!-- <caption class="p-2  text-dark board board-secondary">
-                                        <h3> Data</h3>
-                                    </caption> -->
+                                <!-- <table class="table table-striped table table-bordered  caption-top">
+                                    
                                     <thead class="">
                                         <tr>
                                             <th scope="col">#</th>
@@ -374,8 +365,294 @@
                                             <td class="d-flex"><a href="#" class="edit"><i class="fas fa-edit"></i></a>
                                         </tr>
                                     </tbody>
-                                </table>
-                               
+                                </table> -->
+                                <div class="card terminal-card">
+                                    <div class="card-body">
+
+                                        <!-- <div class="d-flex justify-content-between">
+                                            <div class="basic-column col-3">
+                                                <div class="tag-wrapper">
+                                                    <div class="number-card number-card-content1">
+                                                        <h1 class="number-card-number "><span
+                                                                class="number-text">3</span></h1>
+                                                        <div class="number-card-divider"></div>
+                                                        <div class="number-card-progress-wrapper">
+                                                            <div class="tagline number-card-currency">Large
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="basic-column col-3">
+                                                <div class="tag-wrapper">
+                                                    <div class="number-card number-card-content2">
+                                                        <h1 class="number-card-number "><span
+                                                                class="number-text">5</span></h1>
+
+                                                        <div class="number-card-divider"></div>
+                                                        <div class="number-card-progress-wrapper">
+                                                            <div class="tagline number-card-currency">Medium
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="basic-column col-3">
+                                                <div class="tag-wrapper">
+                                                    <div class="number-card number-card-content3">
+                                                        <h1 class="number-card-number"><span
+                                                                class="number-text">10</span></h1>
+                                                        <div class="number-card-divider"></div>
+                                                        <div class="number-card-progress-wrapper">
+                                                            <div class="tagline number-card-currency">Small
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+
+                                     
+
+                                        </div>
+                                        <div class="d-flex justify-content-end">
+                                            <div class="d-flex align-items-center  m-2">
+                                                <div class="status-1"></div>
+                                                <div class="fw-medium">Empty</div>
+                                            </div>
+                                            <div class="d-flex align-items-center m-2">
+                                                <div class="status-2"></div>
+                                                <div class="fw-medium">Fill</div>
+                                            </div>
+                                            <div class="d-flex align-items-center m-2">
+                                                <div class="status-3"></div>
+                                                <div class="fw-medium">Active</div>
+                                            </div>
+
+
+                                        </div> -->
+
+
+                                        <!-- <div class="">
+                                            <div
+                                                class="d-flex flex-wrap justify-content-evenly align-items-center my-3">
+                                                <div class="card ">
+                                                    <div class="card-body">
+                                                        
+                                                        <div class="item">
+                                                            <div><label>First Name:</label> Zone</div>
+                                                            <div><label>Last Name:</label> Deo</div>
+                                                            <div><label>Gender:</label> Male</div>
+                                                            <div><label>Email ID:</label> expamle@gmail.com</div>
+                                                            <div><label>Phone NO:</label> 93745272647</div>
+
+                                                            <div><label>Address:</label> Banglore</div>
+
+                                                            <div><label>Zip Code:</label> 530068</div>
+                                                            <div><label>Items:</label> 2</div>
+                                                            <div><label>Assign Terminal:</label> XYZ</div>
+                                                            <div><label>Assigned Box:</label> Small</div>
+                                                            <div><label>No. of Boxes:</label> 10</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card error-card">
+                                                    <div class="card-body">
+                                                        <div class="d-flex justify-content-between">
+                                                            <h4 class="">Large</h4>
+                                                            <i class="fa-solid fa-sliders mt-2 mx-2"></i>
+                                                        </div>
+                                                        <p>Status: Active</p>
+                                                        <p>Box: empty</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card error-card ">
+                                                    <div class="card-body">
+                                                        <div class="d-flex justify-content-between">
+                                                            <h4 class="">Large</h4>
+                                                            <i class="fa-solid fa-sliders mt-2 mx-2"></i>
+                                                        </div>
+                                                        <p>Status: Active</p>
+                                                        <p>Box: empty</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card fill-card">
+                                                    <div class="card-body">
+                                                        <div class="d-flex justify-content-between">
+                                                            <h4 class="">Small</h4>
+                                                            <i class="fa-solid fa-sliders mt-2 mx-2"></i>
+                                                        </div>
+                                                        <p>Status: Active</p>
+                                                        <p>Box: Full</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-wrap justify-content-evenly align-items-center">
+                                                <div class="card active-card">
+                                                    <div class="card-body">
+                                                        <div class="d-flex justify-content-between">
+                                                            <h4 class="">Small</h4>
+                                                            <i class="fa-solid fa-sliders mt-2 mx-2"></i>
+                                                        </div>
+                                                        <p>Status: Active</p>
+                                                        <p>Box: error</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card active-card">
+                                                    <div class="card-body">
+                                                        <div class="d-flex justify-content-between">
+                                                            <h4 class="">Medium</h4>
+                                                            <i class="fa-solid fa-sliders mt-2 mx-2"></i>
+                                                        </div>
+                                                        <p>Status: Active</p>
+                                                        <p>Box: error</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card error-card ">
+                                                    <div class="card-body">
+                                                        <div class="d-flex justify-content-between">
+                                                            <h4 class="">Medium</h4>
+                                                            <i class="fa-solid fa-sliders mt-2 mx-2"></i>
+                                                        </div>
+                                                        <p>Status: Active</p>
+                                                        <p>Box: empty</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card fill-card">
+                                                    <div class="card-body">
+                                                        <div class="d-flex justify-content-between">
+                                                            <h4 class="">Large</h4>
+                                                            <i class="fa-solid fa-sliders mt-2"></i>
+                                                        </div>
+                                                        <p>Status: Active</p>
+                                                        <p>Box: Full</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> -->
+
+                                        <div class="container text-center">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="dashboard">
+                                                        <h2>Name</h2>
+                                                        
+                                                        <div class="values">
+                                                            <div>
+                                                                <div class="value value-positive">example@gmail.com</div>
+                                                                <div class="label">Email ID:</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="value value-positive">93745272647</div>
+                                                                <div class="label">Phone NO:</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="value value-positive"> Banglore</div>
+                                                                <div class="label">Address:</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="value value-positive"> Secunderabad </div>
+                                                                <div class="label">Assign Terminal:</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="value value-positive"> Small</div>
+                                                                
+                                                                <div class="label">Assign Boxes</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="value value-positive"> 10</div>
+                                                                <div class="label">No. of Boxes:</div>
+                                                            </div>
+                                                        </div>
+                                                       
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <div class="dashboard">
+                                                        <h2>Name</h2>
+                                                        
+                                                        <div class="values">
+                                                            <div>
+                                                                <div class="value value-positive">example@gmail.com</div>
+                                                                <div class="label">Email ID:</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="value value-positive">93745272647</div>
+                                                                <div class="label">Phone NO:</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="value value-positive"> Banglore</div>
+                                                                <div class="label">Address:</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="value value-positive"> Secunderabad </div>
+                                                                <div class="label">Assign Terminal:</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="value value-positive"> Small</div>
+                                                                
+                                                                <div class="label">Assign Boxes</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="value value-positive"> 10</div>
+                                                                <div class="label">No. of Boxes:</div>
+                                                            </div>
+                                                        </div>
+                                                       
+                                                    </div>
+
+                                                </div>
+
+
+                                                <div class="col-md-12">
+                                                    <div class="dashboard">
+                                                        <h2>Name</h2>
+                                                        
+                                                        <div class="values">
+                                                            <div>
+                                                                <div class="value value-positive">example@gmail.com</div>
+                                                                <div class="label">Email ID:</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="value value-positive">93745272647</div>
+                                                                <div class="label">Phone NO:</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="value value-positive"> Banglore</div>
+                                                                <div class="label">Address:</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="value value-positive"> Secunderabad </div>
+                                                                <div class="label">Assign Terminal:</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="value value-positive"> Small</div>
+                                                                
+                                                                <div class="label">Assign Boxes</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="value value-positive"> 10</div>
+                                                                <div class="label">No. of Boxes:</div>
+                                                            </div>
+                                                        </div>
+                                                       
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
